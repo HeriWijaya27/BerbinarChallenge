@@ -1,3 +1,5 @@
+import model.Hompimpa
+
 fun main() {
     //tampilan awal
     var isGameFinish = false
@@ -20,8 +22,8 @@ fun main() {
             }
             "3" -> {
                 println("hompimpa")
-//                val hompimpa = Hompimpa()
-//                hompimpa.startGame()
+                val hompimpa = Hompimpa()
+                hompimpa.startGame()
             }
             else -> {
                 //berhenti
