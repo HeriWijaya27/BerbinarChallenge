@@ -1,4 +1,5 @@
 import model.Hompimpa
+import model.SuitJepang
 
 fun main() {
     //tampilan awal
@@ -14,7 +15,8 @@ fun main() {
         when (readLine()) {
             "1" -> {
                 println("suit jepang")
-                // panggil fungsi game
+                val jepang = SuitJepang()
+                jepang.startGame()
             }
             "2" -> {
                 println("suit standar")
