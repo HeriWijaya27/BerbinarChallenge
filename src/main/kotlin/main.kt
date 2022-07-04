@@ -10,8 +10,10 @@ fun main() {
         println("=============================")
         println("Pilih Game:")
         println("1. Suit Jepang")
-        println("2. Suit Standar")
-        println("3. Hompimpa")
+        println("2. Hompimpa")
+        println("3. Keluar Dari Game")
+        println("=============================")
+
         when (readLine()) {
             "1" -> {
                 println("suit jepang")
@@ -19,15 +21,11 @@ fun main() {
                 jepang.startGame()
             }
             "2" -> {
-                println("suit standar")
-                // panggil fungsi game
-            }
-            "3" -> {
                 println("hompimpa")
                 val hompimpa = Hompimpa()
                 hompimpa.startGame()
             }
-            else -> {
+            "3" -> {
                 //berhenti
                 println("game selesai")
                 isGameFinish = true
