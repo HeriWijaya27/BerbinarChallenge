@@ -16,18 +16,18 @@ fun main() {
 
         when (readLine()) {
             "1" -> {
-                println("suit jepang")
+                println("Anda Memilih Game Suit Jepang")
                 val jepang = SuitJepang()
                 jepang.startGame()
             }
             "2" -> {
-                println("hompimpa")
+                println("Anda Memilih Game Hompimpa")
                 val hompimpa = Hompimpa()
                 hompimpa.startGame()
             }
             "3" -> {
                 //berhenti
-                println("game selesai")
+                println("Game Selesai")
                 isGameFinish = true
 
             }
